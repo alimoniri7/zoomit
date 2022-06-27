@@ -1,0 +1,51 @@
+* {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    border-spacing: 0;
+    color: #474747;
+    font-family: IRANSans, Tahoma;
+    font-weight: normal;
+    list-style: none outside none;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-indent: 0;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+
+.bg-dark {
+    background-color: #242424;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+body {
+    width: 100%;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0.7rem 15rem 0.7rem 2rem;
+}
+
+#nav a {
+    color: rgba(255, 255, 255, 0.582);
+    font-size: 12px;
+}
+
+#nav a:hover {
+    color: rgba(255, 255, 255);
+}
+
+#nav section {
+    display: flex;
+    gap: 1.2rem;
+}
