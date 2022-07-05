@@ -1,6 +1,6 @@
 [{
         "category": "اینترنت و شبکه",
-        "image": "../images/container-images/xiaomi-home-wifi.jpg",
+        "image": "images/container-images/xiaomi-home-wifi.jpg",
         "title": "مودم شیائومی HomeWiFi با برد ۱۵۰۰ مترمربع و پشتیبانی از NFC در چین رونمایی شد",
         "author": "مجتبی بوالحسنی",
         "time": {
@@ -14,8 +14,8 @@
         "content": "روتر سه‌باند جدید شیائومی HomeWiFi با پوشش ۱۵۰۰ مترمربع، پشتیبانی از اتصال آسان دستگاه‌های هوشمند با NFC و امکان اتصال هم‌زمان ۶۰۰ دستگاه بدون افت سرعت برای بازار چین معرفی شد."
     }, {
         "category": "پزشکی و سلامت",
-        "image": "",
-        "title": "پزشکی و سلامت",
+        "image": "images/container-images/genetically-modified-plants-concept.jpg",
+        "title": "یافته‌ای غیرمنتظره؛ گیاهان ممکن است کلید درمان سرطان در انسان باشند",
         "author": "مبین احمدی",
         "time": {
             "hour": "12",
@@ -28,7 +28,7 @@
         "content": "پژوهشگران به حقایق غیرمنتظره‌ای درباره‌ی نحوه‌ی رشد در گیاهان دست پیدا کرده‌اند که می‌تواند کلید دستیابی به درمان سرطان در انسان باشد."
     }, {
         "category": "اخبار خودرو",
-        "image": "",
+        "image": "images/container-images/3e33942f-43b2-4a62-ab43-09c770b4ccd8.jpg",
         "title": "هر آنچه از آریسان 2؛ وانت جدید ایران خودرو می‌دانیم",
         "author": "تیم پدال",
         "time": {
@@ -42,7 +42,7 @@
         "content": "آریسان 2، نسخه‌ی بهبودیافته از ایران‌خودرو آریسان است که در بازار به نام وانت پژو شناخته می‌شود. مدل جدید از موتور ۱/۸ لیتری XU7+ با قدرت ۱۰۳ اسب بخار استفاده می‌کند تا قدرت و گشتاور بیشتر داشته باشد."
     }, {
         "category": "فناوری ایران",
-        "image": "",
+        "image": "images/container-images/bime-markazi.jpg",
         "title": "انجمن فین‌تک: کارگروه اقتصاد دیجیتال نمی‌تواند جلوی راه‌اندازی سامانه آمیتیس را بگیرد",
         "author": "هانیه کلهر",
         "time": {
@@ -56,7 +56,7 @@
         "content": "دبیر انجمن فین‌تک معتقد است چندنهادی بودن حوزه بیمه مانع از انجام دستور کارگروه اقتصاد دیجیتال مبنی بر توقف فعالیت سامانه آمیتیس می‌شود."
     }, {
         "category": "شاتر",
-        "image": "",
+        "image": "images/container-images/zoomit-cover-mt(vietnam)-3.jpg",
         "title": "عکس‌های هوایی خیره‌کننده از مناظر سرسبز ویتنام",
         "author": "ملیکا طاهران پور",
         "time": {
@@ -70,7 +70,7 @@
         "content": "فام هوی ترانگ از هنر عکاسی برای نشان دادن تاریخ غنی فرهنگی ویتنام استفاده می‌کند. او با عکس‌های هوایی خود، گل‌های رنگارنگ و مناظر سرسبز کشورش را به اشتراک می‌گذارد."
     }, {
         "category": "نجوم و فضا",
-        "image": "",
+        "image": "images/container-images/nasa-astronaut-waves-to-camera-space-walk.jpg",
         "title": "حضور طولانی‌مدت در فضا بلایی ناخوشایند بر سر استخوان‌های بدن فضانوردان می‌آورد",
         "author": "مبین احمدی",
         "time": {
@@ -85,7 +85,7 @@
     }, {
         "type": "wideBanner",
         "category": "راهنمای خرید",
-        "image": "",
+        "image": "images/container-images/best-gaming-phones.jpg",
         "title": "بهترین گوشی های گیمینگ و مخصوص بازی (تیر 1401)",
         "author": "مهدی حیدری",
         "time": {
@@ -99,7 +99,7 @@
         "content": "اگر به‌‌دنبال گوشی هوشمند برای بازی می‌گردید، نیازی نیست حساب بانکی‌تان را خالی کنید. در این مقاله، بهترین گوشی‌های گیمینگ بازار ایران را در بازه‌های قیمتی مختلف معرفی می‌کنیم."
     }, {
         "category": "کامپیوتر رومیزی",
-        "image": "",
+        "image": "images/container-images/apple-imac-m1-2021-blue-front-pannel.jpg",
         "title": "آی مک پرو جدید احتمالاً اواسط ۲۰۲۳ و با تراشه M3 از راه می‌رسد",
         "author": "مجتبی بوالحسنی",
         "time": {
@@ -113,7 +113,7 @@
         "content": "ظاهراً آی مک پرو اپل به تراشه‌ی M3 مجهز خواهد شد؛ اما نباید به این‌ زودی‌ها منتظر معرفی این محصول باشید؛ زیرا طبق شنیده‌ها این مدل احتمالاً اواسط سال ۲۰۲۳ رونمایی خواهد شد."
     }, {
         "category": "پوشیدنی ها",
-        "image": "",
+        "image": "images/container-images/b27bdb5b-6c35-4fd5-b76a-9e4aa5812a9d.jpg",
         "title": "اپل احتمالاً مدل ۴۷ میلی‌متری اپل واچ سری 8 را عرضه می‌کند",
         "author": "مبین احمدی",
         "time": {
@@ -127,7 +127,7 @@
         "content": "یکی از افشاگران می‌گوید اپل به‌دنبال تولید مدل ۱٫۹۹ اینچی (۴۷ میلی‌متری) از اپل واچ سری 8 است. ساعت هوشمند جدید اپل اواخر تابستان معرفی خواهد شد."
     }, {
         "category": "موبایل",
-        "image": "",
+        "image": "images/container-images/redmagic-7s-pro.jpg",
         "title": "سری Red Magic 7S احتمالاً با نمایشگر OLED، خنک‌کننده مایع و حداکثر ۱۸ گیگابایت رم معرفی می‌شوند",
         "author": "مجتبی بوالحسنی",
         "time": {
@@ -141,7 +141,7 @@
         "content": "رندرهای رسمی سری Red Magic 7S طراحی این گوشی‌ها را تأیید می‌کند. پرچم‌داران گیمینگ جدید نوبیا احتمالاً با نمایشگر ۶٫۸ اینچی OLED، سیستم خنک‌کننده مایع با فن RGB، هجده گیگابایت رم و دوربین اصلی ۶۴ مگاپیکسلی معرفی خواهند شد."
     }, {
         "category": "امنیت",
-        "image": "",
+        "image": "images/container-images/hacker-hoodie-smartphone-numbers-dark-graphic.jpg",
         "title": "بدافزارهای اندروید با توانایی غیرفعال‌سازی وای‌فای و شنود پیامک‌های گوشی شناسایی شدند",
         "author": "مبین احمدی",
         "time": {
@@ -155,7 +155,7 @@
         "content": "مایکروسافت جزئیات بدافزارهای اندرویدی جدیدی را منتشر کرده که ممکن است هزینه‌ی قبض ماهانه‌ی موبایل را بسیار افزایش دهند. این بدافزارها روی سرویس‌های WAP متمرکز هستند."
     }, {
         "category": "پوشیدنی ها",
-        "image": "",
+        "image": "images/container-images/huawei-watch-fit-2.jpg",
         "title": "ساعت هوشمند هواوی Watch Fit 2 با نمایشگر AMOLED و عمر باتری ۱۰ روزه معرفی شد",
         "author": "مجتبی بوالحسنی",
         "time": {
@@ -170,7 +170,7 @@
     }, {
         "type": "wideBanner",
         "category": "پوشیدنی ها",
-        "image": "",
+        "image": "images/container-images/mi-band-7-pro-(1).jpg",
         "title": "دستبند هوشمند شیائومی Mi Band 7 Pro با نمایشگر OLED بزرگ، GPS و حسگر ضربان‌ قلب معرفی شد",
         "author": "مجتبی بوالحسنی",
         "time": {
@@ -184,7 +184,7 @@
         "content": "شیائومی دستبند هوشمند Mi Band 7 Pro را با نمایشگر بزرگ‌تر معرفی کرد."
     }, {
         "category": "گجت",
-        "image": "",
+        "image": "images/container-images/huawei-tag-front-view-white-render.jpg",
         "title": "ردیاب هوشمند هواوی تگ با قیمت ۱۵ دلار معرفی شد",
         "author": "مبین احمدی",
         "time": {
@@ -198,7 +198,7 @@
         "content": "هواوی تگ ردیاب هوشمند جدیدی با کارکرد مشابه ایرتگ اپل است که از فناوری NFC استفاده می‌کند و تنها ۶ گرم وزن دارد و با قیمت ۱۵ دلار به‌دست مشتریان می‌رسد."
     }, {
         "category": "لوازم جانبی",
-        "image": "",
+        "image": "images/container-images/mobile-wifi-3-pro.jpg",
         "title": "مودم جیبی Mobile WiFi 3 Pro هواوی با عمر باتری ۱۲ ساعته و قیمت ۷۵ دلار معرفی شد",
         "author": "مجتبی بوالحسنی",
         "time": {
@@ -213,7 +213,7 @@
     }, {
         "type": "wideBanner",
         "category": "موبایل",
-        "image": "",
+        "image": "images/container-images/huawei-nova-10-series.jpg",
         "title": "سری هواوی Nova 10 با تراشه Snapdragon 778 4G و دوربین سلفی ۶۰ مگاپیکسل معرفی شدند",
         "author": "مجتبی بوالحسنی",
         "time": {
@@ -227,7 +227,7 @@
         "content": "هواوی با برگزاری رویدادی در چین Nova 10 و Nova 10 Pro را رونمایی کرد. این گوشی‌ها از تراشه‌ی Snapdragon 778 4G و دوربین اصلی ۵۰ مگاپیکسلی و شارژ سریع تا ۱۰۰ وات بهره می‌برند."
     }, {
         "category": "رپورتاژ آگهی",
-        "image": "",
+        "image": "images/container-images/asanpardakht.jpg",
         "title": "استعلام و پرداخت خلافی خودرو با آپ",
         "author": "بخش تبلیغات",
         "time": {
@@ -239,132 +239,6 @@
         },
         "comment": "1",
         "content": "یکی از خدمات پرکاربرد سوپراپلیکیشن آپ، گروه خدمات خودرویی است که کاربر با استفاده از آن به سرویس‌های مختلفی مانند پرداخت عوارض آزادراهی، طرح ترافیک، پارک حاشیه‌ای و پرداخت عوارض سالیانه خودرو دسترسی دارد."
-    }, {
-        "category": "",
-        "image": "",
-        "title": "",
-        "author": "",
-        "time": {
-            "hour": "",
-            "minute": "",
-            "day": "",
-            "month": "",
-            "year": ""
-        },
-        "comment": "",
-        "content": ""
-    }, {
-        "category": "",
-        "image": "",
-        "title": "",
-        "author": "",
-        "time": {
-            "hour": "",
-            "minute": "",
-            "day": "",
-            "month": "",
-            "year": ""
-        },
-        "comment": "",
-        "content": ""
-    }, {
-        "category": "",
-        "image": "",
-        "title": "",
-        "author": "",
-        "time": {
-            "hour": "",
-            "minute": "",
-            "day": "",
-            "month": "",
-            "year": ""
-        },
-        "comment": "",
-        "content": ""
-    }, {
-        "category": "",
-        "image": "",
-        "title": "",
-        "author": "",
-        "time": {
-            "hour": "",
-            "minute": "",
-            "day": "",
-            "month": "",
-            "year": ""
-        },
-        "comment": "",
-        "content": ""
-    }, {
-        "category": "",
-        "image": "",
-        "title": "",
-        "author": "",
-        "time": {
-            "hour": "",
-            "minute": "",
-            "day": "",
-            "month": "",
-            "year": ""
-        },
-        "comment": "",
-        "content": ""
-    }, {
-        "category": "",
-        "image": "",
-        "title": "",
-        "author": "",
-        "time": {
-            "hour": "",
-            "minute": "",
-            "day": "",
-            "month": "",
-            "year": ""
-        },
-        "comment": "",
-        "content": ""
-    }, {
-        "category": "",
-        "image": "",
-        "title": "",
-        "author": "",
-        "time": {
-            "hour": "",
-            "minute": "",
-            "day": "",
-            "month": "",
-            "year": ""
-        },
-        "comment": "",
-        "content": ""
-    }, {
-        "category": "",
-        "image": "",
-        "title": "",
-        "author": "",
-        "time": {
-            "hour": "",
-            "minute": "",
-            "day": "",
-            "month": "",
-            "year": ""
-        },
-        "comment": "",
-        "content": ""
-    }, {
-        "category": "",
-        "image": "",
-        "title": "",
-        "author": "",
-        "time": {
-            "hour": "",
-            "minute": "",
-            "day": "",
-            "month": "",
-            "year": ""
-        },
-        "comment": "",
-        "content": ""
     }, {
         "category": "",
         "image": "",
