@@ -16,6 +16,10 @@
     transition: all 0.2s;
 }
 
+a:hover {
+    color: #E51A2D;
+}
+
 .bg-dark {
     background-color: #242424;
 }
@@ -24,8 +28,16 @@
     background-color: #F0F0F0;
 }
 
+.bg-gray-light {
+    background-color: #F5F5F5;
+}
+
 .bg-black {
     background-color: #000;
+}
+
+.bg-white {
+    background-color: #fff;
 }
 
 .text-white {
@@ -44,12 +56,33 @@
     margin-top: 2rem;
 }
 
+.pr--5 {
+    padding-right: .5rem;
+}
+
+.py-1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.bb-1-gray {
+    border-bottom: 1px solid #F0F0F0;
+}
+
 .font-size-22 {
     font-size: 22px;
 }
 
 .font-size-17 {
     font-size: 17px
+}
+
+.font-size-15 {
+    font-size: 15px;
+}
+
+.font-size-13 {
+    font-size: 13px;
 }
 
 .font-size-20 {
@@ -74,6 +107,10 @@
 
 .gap-1 {
     gap: 1rem;
+}
+
+.gap-2 {
+    gap: 2rem;
 }
 
 .width-100 {
@@ -390,7 +427,6 @@ main {
 
 #container-right {
     width: 20%;
-    height: 100%;
 }
 
 #container-center {
@@ -401,5 +437,33 @@ main {
 
 #container-left {
     width: 24%;
-    height: 100%;
+}
+
+
+/* -------------------------------- */
+
+.review-box div {
+    width: 100%;
+    padding: 0.8rem 1.3rem;
+    background-color: #fff;
+}
+
+.message {
+    font-size: 30px;
+    position: relative;
+    color: #000;
+}
+
+.message::after {
+    position: absolute;
+    left: 9px;
+    top: 5px;
+    font-size: 10px;
+    color: #fff;
+    z-index: 10;
+    font-weight: 100;
+}
+
+.message:nth-of-type(1)::after {
+    content: '26';
 }
