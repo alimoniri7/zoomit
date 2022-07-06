@@ -1,0 +1,14 @@
+@media (max-width:1200px) {
+    #nav a {
+        font-size: 13px;
+    }
+    #header-menu-side img {
+        width: 130px;
+    }
+    #header-menu-side ul {
+        gap: .7rem;
+    }
+    #header-menu-side ul li {
+        font-size: 13px;
+    }
+}

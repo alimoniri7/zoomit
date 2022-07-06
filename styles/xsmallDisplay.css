@@ -1,0 +1,6 @@
+@media (max-width:449px) {
+    #banner-samsung {
+        max-width: 322px;
+        width: 80%;
+    }
+}

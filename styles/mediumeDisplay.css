@@ -1,0 +1,26 @@
+@media (max-width:991px) {
+    #mobile-menu {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    #mobile-menu i {
+        font-size: 18px;
+    }
+    #header-menu {
+        padding: .8rem .6rem;
+    }
+    #header-menu-side,
+    #header-icon-side {
+        display: none;
+    }
+    nav {
+        display: none;
+    }
+    #banner-samsung {
+        width: 738px;
+    }
+    #main-first-banner {
+        height: 350px;
+    }
+}

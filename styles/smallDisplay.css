@@ -1,0 +1,50 @@
+@media (max-width:768px) {
+    #banner-samsung {
+        width: 430px;
+    }
+    main {
+        padding: 1rem 0;
+    }
+    #main-first-banner {
+        display: block;
+        height: auto;
+    }
+    #main-first-banner section:last-child {
+        display: none;
+    }
+    #main-first-banner section:nth-child(1) {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        direction: rtl;
+    }
+    #main-first-banner section:nth-child(1) div {
+        height: 200px;
+    }
+    #banner-plaza {
+        display: none;
+    }
+    #chancellor-suggest h3 {
+        font-size: 17px;
+    }
+    #chancellor-suggest section {
+        height: 220px;
+        overflow-x: scroll;
+    }
+    #chancellor-suggest section div {
+        height: 100%;
+        width: 200px;
+        flex: none;
+        gap: 0;
+    }
+    #chancellor-suggest section div img {
+        width: 100%;
+        height: 125px !important;
+    }
+    #chancellor-suggest section div a {
+        font-size: 13px;
+        background-color: #fff;
+        height: 100%;
+        padding: 12px 8px;
+    }
+}
