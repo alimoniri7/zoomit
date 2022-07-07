@@ -1,9 +1,14 @@
+@font-face {
+    font-family: IranianSans;
+    src: url(../fonts/IRANSans.ttf);
+}
+
 * {
     background: none repeat scroll 0 0 transparent;
     border: medium none;
     border-spacing: 0;
     color: #474747;
-    font-family: IRANSans, Tahoma;
+    font-family: IranianSans;
     font-weight: normal;
     list-style: none outside none;
     font-size: 14px;
@@ -129,6 +134,10 @@ a:hover {
     height: 98%;
 }
 
+.all.none {
+    all: none !important;
+}
+
 body {
     width: 100%;
 }
@@ -178,18 +187,18 @@ header {
     gap: 1.5rem;
 }
 
-#header-menu-side ul {
+#header-menu-side>ul {
     display: flex;
     gap: 1.5rem;
 }
 
-#header-menu-side ul li:first-child {
+#header-menu-side>ul>li:first-child {
     background-color: #474747;
     border-radius: 100px;
     padding: 0.2rem 0.7rem;
 }
 
-#header-menu-side ul i {
+#header-menu-side>ul>i {
     font-size: 10px;
 }
 
@@ -206,6 +215,80 @@ header {
     color: #fff;
     font-size: 14px;
     align-items: center;
+}
+
+.dropDown {
+    position: relative;
+}
+
+.dropDown button {
+    cursor: pointer;
+}
+
+.dropDown ul {
+    position: absolute;
+    right: -20PX;
+    top: 45px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    padding: 1rem;
+    border-radius: 0 0 5px 5px;
+    display: none;
+    width: max-content;
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    0% {
+        display: block;
+        top: 80px;
+        opacity: 0;
+    }
+    100% {
+        display: block;
+        top: 45px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        display: block;
+        top: 45px;
+        opacity: 1;
+    }
+    100% {
+        top: 80px;
+        opacity: 0;
+        display: none;
+    }
+}
+
+.dropDown ul li {
+    color: #333333 !important;
+    padding: .4rem .8rem;
+    cursor: pointer;
+    text-align: right !important;
+}
+
+.fadeIn {
+    display: block !important;
+    animation-name: fadeIn;
+    animation-duration: .2s;
+    animation-timing-function: ease;
+}
+
+.fadOut {
+    animation-name: fadeOut;
+    animation-duration: .5s;
+}
+
+.rotate-180 {
+    transform: rotate(180deg);
+}
+
+.dropDown i {
+    transition: all .5s;
 }
 
 
@@ -426,6 +509,7 @@ main {
     display: flex;
     width: 100%;
     gap: 1rem;
+    position: relative;
 }
 
 #container-right {
@@ -579,3 +663,6 @@ main {
     line-height: 30px;
     vertical-align: baseline;
 }
+
+
+/* -------------------- */

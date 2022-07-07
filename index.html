@@ -40,7 +40,7 @@
     <header class="bg-black">
         <section id="header-menu">
             <section id="mobile-menu" class="dis-none">
-                <button>
+                <button id="burger-menu">
                     <i class="fa-solid fa-bars"></i>
                 </button>
                 <a href="#">
@@ -56,35 +56,122 @@
                     <img src="images/svg/zoomit_logo_h.svg" alt="زومیت" width="150px">
                 </a>
                 <ul>
-                    <li>محصولات
+                    <li>
+                        <a href="#">محصولات</a>
                     </li>
-                    <li>زومیت
+
+                    <li class="dropDown">
+                        <button>زومیت
+                            <i class="fa-solid fa-caret-down"></i>
+                        </button>
+                        <ul class="">
+                            <li>تبلیغات</li>
+                            <li>درباره ما</li>
+                            <li>تماس با ما</li>
+                            <li>استخدام</li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <button>
+                            فناوری
                         <i class="fa-solid fa-caret-down"></i>
+                        </button>
                     </li>
-                    <li>فناوری
-                        <i class="fa-solid fa-caret-down"></i>
+
+                    <li class="dropDown">
+                        <button>بررسی
+                            <i class="fa-solid fa-caret-down"></i>
+                        </button>
+                        <ul class="">
+                            <li>برسی مبایل</li>
+                            <li>برسی لپتاپ</li>
+                            <li>برسی نوشیدنی ها</li>
+                            <li>برسی تبلت</li>
+                            <li>برسی تلوزیون</li>
+                            <li>برسی اسپیکر</li>
+                            <li>برسی ویدیویی</li>
+                            <li>همه ی برسی ها</li>
+                        </ul>
                     </li>
-                    <li>بررسی
-                        <i class="fa-solid fa-caret-down"></i>
+
+                    <li class="dropDown">
+                        <button>ویدیو
+                            <i class="fa-solid fa-caret-down"></i>
+                        </button>
+                        <ul class="">
+                            <li>بررسی ویدیو</li>
+                            <li>نگاه نزدیک</li>
+                            <li>زوم کست</li>
+                            <li>ویدیو خودرو</li>
+                            <li>هایلایت</li>
+                            <li>جعبه گشایی</li>
+                            <li>60 ثانیه</li>
+                            <li>گزارش ویدویی</li>
+                        </ul>
                     </li>
-                    <li>ویدئو
-                        <i class="fa-solid fa-caret-down"></i>
+
+                    <li class="dropDown">
+                        <button>خودرو
+                            <i class="fa-solid fa-caret-down"></i>
+                        </button>
+                        <ul class="">
+                            <li>اخبار خودرو</li>
+                            <li>مقالات خودرو</li>
+                            <li>قیمت و شرایط فروش خودرو</li>
+                            <li>ویدئو خودرو</li>
+                            <li>آموزش خودرو</li>
+                            <li>موتور اسپرت</li>
+                        </ul>
                     </li>
-                    <li>خودرو
-                        <i class="fa-solid fa-caret-down"></i>
+
+                    <li>
+                        <button>
+                            راهنمای خرید
+                        </button>
                     </li>
-                    <li>راهنمای خرید
-                        <i class="fa-solid fa-caret-down"></i>
+
+                    <li class="dropDown">
+                        <button>
+                            علمی
+                            <i class="fa-solid fa-caret-down"></i>
+                        </button>
+                        <ul class="">
+                            <li>نجوم</li>
+                            <li>پزشکی و سلامت</li>
+                            <li>علوم پایه و مهندسی</li>
+                            <li>انرژی و محیط زیست</li>
+                        </ul>
                     </li>
-                    <li>علمی
-                        <i class="fa-solid fa-caret-down"></i>
+
+                    <li class="dropDown">
+                        <button>
+                            کسب و کار
+                            <i class="fa-solid fa-caret-down"></i>
+                        </button>
+                        <ul class="">
+                            <li>بیوگرافی</li>
+                            <li>تاریخچه</li>
+                            <li>مصاحبه</li>
+                            <li>بازاریابی اینترنتی</li>
+
+                        </ul>
                     </li>
-                    <li>کسب و کار
-                        <i class="fa-solid fa-caret-down"></i>
+
+                    <li class="dropDown">
+                        <button>
+                            زوم پلاس
+                            <i class="fa-solid fa-caret-down"></i>
+                        </button>
+                        <ul class="">
+                            <li>شاتر</li>
+                            <li>پازل</li>
+                            <li>معماری</li>
+                            <li>گوناگون</li>
+                            <li>بازی</li>
+                        </ul>
                     </li>
-                    <li>زوم پلاس
-                        <i class="fa-solid fa-caret-down"></i>
-                    </li>
+
                 </ul>
             </section>
             <section id="header-icon-side">
@@ -327,16 +414,16 @@
                     </div>
                 </section>
             </section>
-        </section>
+        </section> -->
 
-        <!-- <section>
+        <<section>
             <h2>راهنمای خرید</h2>
             <section>
                 <h3><a href="#">بهترین گوشی های گیمینگ و مخصوص بازی [تیر 1401]</a></h3>
                 <p>اگر به‌‌دنبال گوشی هوشمند برای بازی می‌گردید، نیازی نیست حساب بانکی‌تان را خالی کنید. در این مقاله، بهترین گوشی‌های گیمینگ بازار ایران را در بازه‌های قیمتی مختلف معرفی می‌کنیم.</p>
             </section>
             <section></section>
-        </section> -->
+            </section> -->
     </main>
 
     <footer class="dis-flex">

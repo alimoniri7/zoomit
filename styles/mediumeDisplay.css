@@ -1,6 +1,7 @@
 @media (max-width:991px) {
     header {
-        position: static;
+        position: relative;
+        z-index: 10000;
     }
     #mobile-menu {
         display: flex;
@@ -16,6 +17,103 @@
     #header-menu-side,
     #header-icon-side {
         display: none;
+    }
+    #header-menu-side {
+        position: absolute;
+    }
+    #header-menu-side img {
+        display: none;
+    }
+    #header-menu-side>ul {
+        flex-direction: column;
+        background-color: #3d3d3d;
+        width: 100vw;
+        align-items: flex-start;
+        position: absolute;
+        gap: 0;
+        top: 25px;
+        right: -8px;
+        animation-name: openMenu;
+        animation-duration: .3s;
+        animation-timing-function: ease-in-out;
+        z-index: -100;
+    }
+    @keyframes openMenu {
+        0% {
+            height: 10px;
+            /* top: -400px; */
+        }
+        50% {}
+        100% {
+            height: 450px;
+            /* top: 25px; */
+        }
+    }
+    #header-menu-side>ul>li button {
+        font-size: 13px;
+        color: #ffffff90;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+    #header-menu-side>ul>li button i {
+        font-size: 10px;
+        color: #ffffff90;
+    }
+    #header-menu-side>ul>li {
+        padding: .8rem 1rem .8rem 1.5rem;
+        width: 100%;
+        border-bottom: 1px solid #ffffff17;
+        animation-name: showList;
+        animation-duration: .4s;
+    }
+    @keyframes showList {
+        0% {
+            opacity: 0;
+        }
+        60% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    #header-menu-side>ul>li:first-child {
+        border-radius: 0;
+        background-color: #3d3d3d;
+        padding: 1rem;
+    }
+    #header-menu-side>ul>li:first-child a {
+        background-color: #fff;
+        color: #E51A2D;
+        border-radius: 100px;
+        padding: .2rem .7rem;
+    }
+    .dropDown ul {
+        right: 0PX;
+        top: 45px;
+        height: auto;
+        background-color: #3d3d3d;
+        box-shadow: none;
+        padding: 0;
+        border-radius: 0;
+        width: 100vw;
+        z-index: 1000000;
+    }
+    .dropDown ul li {
+        color: #fff !important;
+        padding: .8rem 1rem;
+        cursor: pointer;
+        text-align: right !important;
+    }
+    .open-menu {
+        background-color: #E51A2D;
+        color: #fff;
+    }
+    .open-menu button,
+    .open-menu i {
+        color: #fff !important;
     }
     nav {
         display: none;
@@ -43,5 +141,8 @@
     }
     .content-box-wide div p {
         display: none;
+    }
+    .dis-block {
+        display: block !important;
     }
 }

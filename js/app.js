@@ -84,3 +84,56 @@ function f() {
         console.log(err);
     })
 }
+
+// drop down menu /--------------------------------------------------------------------------------------
+
+//for large displays
+
+function dropDown() {
+
+}
+let heads = document.querySelectorAll('.dropDown')
+heads.forEach(head => {
+    console.log(head.children[1]);
+    head.addEventListener('click', function() {
+        if (head.children[1].classList == "fadeIn") {
+            head.children[1].classList.toggle('fadeIn')
+            head.classList.toggle('open-menu')
+            head.children[0].children[0].classList.toggle('rotate-180')
+        } else {
+            heads.forEach(head => {
+                head.children[1].classList.remove('fadeIn')
+                head.classList.remove('open-menu')
+                head.children[0].children[0].classList.remove('rotate-180')
+
+            })
+
+            head.children[1].classList.add('fadeIn')
+            head.classList.add('open-menu')
+            head.children[0].children[0].classList.toggle('rotate-180')
+        }
+
+    })
+})
+
+document.querySelectorAll('main , nav , footer').forEach(area => {
+    area.addEventListener('click', function() {
+        let heads = document.querySelectorAll('.dropDown')
+        heads.forEach(head => {
+            head.children[1].classList.remove('fadeIn')
+            head.classList.remove('open-menu')
+            head.children[0].children[0].classList.remove('rotate-180')
+            document.getElementById('header-menu-side').classList.remove('dis-block')
+
+        })
+    })
+})
+
+
+//burger menu 
+let burgerMenu = document.getElementById('burger-menu')
+
+
+burgerMenu.addEventListener('click', function() {
+    document.getElementById('header-menu-side').classList.toggle('dis-block')
+})
