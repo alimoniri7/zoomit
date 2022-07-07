@@ -481,10 +481,15 @@ main {
     align-items: flex-start;
 }
 
+.content-box img {
+    width: 35%;
+}
+
 .content-box div {
     display: flex;
     flex-direction: column;
     gap: .6rem;
+    width: 65%;
 }
 
 .content-box div b {

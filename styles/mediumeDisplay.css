@@ -1,4 +1,7 @@
 @media (max-width:991px) {
+    header {
+        position: static;
+    }
     #mobile-menu {
         display: flex;
         justify-content: space-between;
@@ -22,5 +25,23 @@
     }
     #main-first-banner {
         height: 350px;
+    }
+    #container-left {
+        display: none;
+    }
+    #container-center {
+        width: 75%;
+    }
+    #container-right {
+        width: 25%;
+    }
+    #container-right section:first-child {
+        display: none;
+    }
+    .content-box div p {
+        display: none;
+    }
+    .content-box-wide div p {
+        display: none;
     }
 }

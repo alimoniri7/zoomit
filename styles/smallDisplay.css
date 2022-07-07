@@ -47,4 +47,27 @@
         height: 100%;
         padding: 12px 8px;
     }
+    #container-right {
+        display: none;
+    }
+    #container-center {
+        width: 100%;
+    }
+    .content-box {
+        padding-bottom: 1rem;
+        padding-right: .5rem;
+    }
+    .content-box div b {
+        display: none;
+    }
+    .content-box div a {
+        font-size: 13px;
+        line-height: 21px;
+        vertical-align: baseline;
+    }
+    .content-box div span {
+        font-size: 12px;
+        line-height: 15px;
+        color: #999999;
+    }
 }
