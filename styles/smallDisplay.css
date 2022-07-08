@@ -70,4 +70,32 @@
         line-height: 15px;
         color: #999999;
     }
+    footer>section:first-child>section:first-child section {
+        width: 100%;
+    }
+    footer>section:first-child>section:first-child {
+        width: 100%;
+        flex-direction: column;
+    }
+    footer>section:first-child a {
+        font-size: 13px;
+    }
+    footer>section:nth-child(2) {
+        flex-direction: column;
+        gap: 0;
+        justify-content: flex-start;
+    }
+    footer>section:nth-child(2) * {
+        padding: 0rem !important;
+    }
+    footer>section:last-child {
+        flex-wrap: wrap;
+    }
+    footer>section:last-child div {
+        margin-right: auto;
+        padding: 1rem 1rem;
+    }
+    #signup {
+        display: none;
+    }
 }

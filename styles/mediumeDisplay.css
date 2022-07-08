@@ -145,4 +145,13 @@
     .dis-block {
         display: block !important;
     }
+    footer * {
+        line-height: 22px !important;
+    }
+    footer>section:first-child {
+        flex-direction: column;
+    }
+    footer>section:first-child>section {
+        width: 100%;
+    }
 }
