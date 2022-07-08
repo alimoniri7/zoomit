@@ -78,6 +78,14 @@ a:hover {
     font-size: 22px;
 }
 
+.font-size-20 {
+    font-size: 20px;
+}
+
+.font-size-18 {
+    font-size: 18px;
+}
+
 .font-size-17 {
     font-size: 17px
 }
@@ -90,8 +98,8 @@ a:hover {
     font-size: 13px;
 }
 
-.font-size-20 {
-    font-size: 20px;
+.font-size-12 {
+    font-size: 12px;
 }
 
 .position-relative {
@@ -114,6 +122,10 @@ a:hover {
     align-items: flex-end;
 }
 
+.gap--5 {
+    gap: .5rem;
+}
+
 .gap-1 {
     gap: 1rem;
 }
@@ -124,6 +136,10 @@ a:hover {
 
 .width-100 {
     width: 100%;
+}
+
+.width-50 {
+    width: 50%;
 }
 
 .width-auto {
@@ -665,4 +681,49 @@ main {
 }
 
 
-/* -------------------- */
+/* footer -------------------- */
+
+footer {}
+
+footer>section {
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+
+footer * {
+    color: #ffffff90;
+}
+
+.footer-poster {
+    width: 80px;
+    height: 70px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#poster-vietnam {
+    background-image: url(../images/zoomit-cover-mtvietnam-3.jpg);
+}
+
+#poster-cities {
+    background-image: url(../images/zoomit-cover-mtold-photos-now-real-life.jpg);
+}
+
+#poster-sky {
+    background-image: url(../images/zoomit-cover-mtbeauty-of-day-and-night-skies-alex-frost-3.jpg);
+}
+
+#poster-xiaomi {
+    background-image: url(../images/xiaomi-12s-ultra-teardown.jpg);
+}
+
+#poster-timcook {
+    background-image: url(../images/tim-cook-smile-apple-park-macbook-air-m2-black-daylight.jpg);
+}
+
+#poster-laptop {
+    background-image: url(../images/gpd-win-max-2.jpg);
+}
